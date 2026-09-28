@@ -1,36 +1,32 @@
 # <a href="https://www.linkedin.com/in/David-Koschmann/">David Koschmann's</a>'s IT and Cybersecurity Project Portfolio 🔐
 
-I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
+Cyber Security Support Analyst (Vulnerability Management and SecOps) at **Log(N) Pacific**, and Bachelor of IT student at **Griffith University**. I'm passionate about cybersecurity and love tackling complex challenges through hands-on projects. From vulnerability management to threat detection, these projects allow me to dive deep into the ever-evolving landscape of cybersecurity. Please feel free to check them out and see the work I’ve put into enhancing security operations and processes!
 
+---
 
-## ⚠️ Vulnerability Management Projects
+## 🚨 Threat Hunting and Incident Investigation
 
-- **[Vulnerability Management Program Implementation](https://github.com/David-Koschmann/Portfolio/blob/main/Vulnerability%20Management/%20%20%20%20vulnerability-management-program/README.md)**
-- **[Programmatic Vulnerability Remediations (PowerShell, BASH, & Shell Commands)](https://github.com/David-Koschmann/Portfolio/blob/main/Vulnerability%20Management/programmatic-vulnerability-remediations/scripts/README.md)**
+- **[Live Honeypot: MySQL Ransom Attack and RDP Brute Force](https://github.com/David-Koschmann/mysql-honeypot-live-breach)**
+  Built a vulnerable Windows VM running MySQL in Azure and exposed it to the internet. Within about 10 hours, bots wiped the databases and left a Bitcoin ransom note. Includes where the first AI-assisted analysis went wrong and how I verified it.
 
-## 🚨 Threat Hunting and Security Operations
+- **[Operation Helpline: Hybrid Cloud and Active Directory Compromise](https://github.com/David-Koschmann/Portfolio/tree/main/threat-hunts/operation-helpline)**
+  A stolen session cookie leads to a stolen MFA seed, an AI helpdesk agent tricked into resetting a password, certificate abuse and a DCSync of the whole domain.
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/David-Koschmann/Portfolio/blob/main/Threat%20Hunting/Threat_Hunt_Report_(TOR%20Usage).md)**
+- **[Unauthorized TOR Browser Usage](https://github.com/David-Koschmann/Portfolio/tree/main/threat-hunts/tor-browser-usage)**
+  Tracing Tor from download to silent install to active use, across file, process and network telemetry.
 
-<hr/>
+## 🛡️ Vulnerability Management and Hardening
 
-## 🤳 Connect With Me
-<!--
-[<img align="left" alt="___________ | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="___________ | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="___________ | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="___________ | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
--->
+- **[Vulnerability Management Program Implementation](https://github.com/David-Koschmann/Portfolio/tree/main/vulnerability-management/vulnerability-management-program)**
+- **[Programmatic Vulnerability Remediations (PowerShell and Bash)](https://github.com/David-Koschmann/Portfolio/tree/main/vulnerability-management/programmatic-vulnerability-remediations/scripts)**
+- **[Windows 11 STIG Remediations](https://github.com/David-Koschmann/Portfolio/tree/main/stigs)**
+
+---
+
+## 🧰 Tools
+
+Microsoft Sentinel · Defender for Endpoint · KQL · Azure · Tenable · PowerShell · Python · MySQL
+
+## 🤝 Connect With Me
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/davidkoschmann)
-
-<!--
-[twitter]: https://twitter.com/___________
-[youtube]: https://www.youtube.com/c/___________
-[instagram]: https://www.instagram.com/___________
--->
-[linkedin]: https://linkedin.com/in/davidkoschmann
-
-<!--
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/2f41c7cd-5ea8-4475-b451-a37161b6c3fb"> 
-<img width="35" alt="image" src="https://github.com/user-attachments/assets/77649969-9910-4994-8b96-74a116cfb2a8">
--->
